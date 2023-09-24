@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100AB0772ABB846D008CAE81 /* MatchedGeometryEffectBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100AB0762ABB846D008CAE81 /* MatchedGeometryEffectBC.swift */; };
+		10167D222AC0CAB400A4443B /* CustomShapesBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10167D212AC0CAB400A4443B /* CustomShapesBC.swift */; };
+		10E6FCE42AB8E8120055381B /* AnyTransitionBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E6FCE32AB8E8120055381B /* AnyTransitionBC.swift */; };
 		10F0D1CB2AB4A03F006E5483 /* SwiftUiAdvancedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F0D1CA2AB4A03F006E5483 /* SwiftUiAdvancedApp.swift */; };
-		10F0D1CD2AB4A03F006E5483 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F0D1CC2AB4A03F006E5483 /* ContentView.swift */; };
 		10F0D1CF2AB4A040006E5483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F0D1CE2AB4A040006E5483 /* Assets.xcassets */; };
 		10F0D1D22AB4A040006E5483 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F0D1D12AB4A040006E5483 /* Preview Assets.xcassets */; };
+		10F0D1D92AB4A4A2006E5483 /* ViewModifierBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F0D1D82AB4A4A2006E5483 /* ViewModifierBC.swift */; };
+		10F0D1DB2AB4AE64006E5483 /* ButtonStyleBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F0D1DA2AB4AE64006E5483 /* ButtonStyleBC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		100AB0762ABB846D008CAE81 /* MatchedGeometryEffectBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBC.swift; sourceTree = "<group>"; };
+		10167D212AC0CAB400A4443B /* CustomShapesBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBC.swift; sourceTree = "<group>"; };
+		10E6FCE32AB8E8120055381B /* AnyTransitionBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBC.swift; sourceTree = "<group>"; };
 		10F0D1C72AB4A03F006E5483 /* SwiftUiAdvanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiAdvanced.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F0D1CA2AB4A03F006E5483 /* SwiftUiAdvancedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiAdvancedApp.swift; sourceTree = "<group>"; };
-		10F0D1CC2AB4A03F006E5483 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10F0D1CE2AB4A040006E5483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F0D1D12AB4A040006E5483 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10F0D1D82AB4A4A2006E5483 /* ViewModifierBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBC.swift; sourceTree = "<group>"; };
+		10F0D1DA2AB4AE64006E5483 /* ButtonStyleBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				10F0D1CA2AB4A03F006E5483 /* SwiftUiAdvancedApp.swift */,
-				10F0D1CC2AB4A03F006E5483 /* ContentView.swift */,
 				10F0D1CE2AB4A040006E5483 /* Assets.xcassets */,
 				10F0D1D02AB4A040006E5483 /* Preview Content */,
+				10F0D1D82AB4A4A2006E5483 /* ViewModifierBC.swift */,
+				10F0D1DA2AB4AE64006E5483 /* ButtonStyleBC.swift */,
+				10E6FCE32AB8E8120055381B /* AnyTransitionBC.swift */,
+				100AB0762ABB846D008CAE81 /* MatchedGeometryEffectBC.swift */,
+				10167D212AC0CAB400A4443B /* CustomShapesBC.swift */,
 			);
 			path = SwiftUiAdvanced;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F0D1CD2AB4A03F006E5483 /* ContentView.swift in Sources */,
+				10E6FCE42AB8E8120055381B /* AnyTransitionBC.swift in Sources */,
+				10F0D1D92AB4A4A2006E5483 /* ViewModifierBC.swift in Sources */,
+				10F0D1DB2AB4AE64006E5483 /* ButtonStyleBC.swift in Sources */,
 				10F0D1CB2AB4A03F006E5483 /* SwiftUiAdvancedApp.swift in Sources */,
+				100AB0772ABB846D008CAE81 /* MatchedGeometryEffectBC.swift in Sources */,
+				10167D222AC0CAB400A4443B /* CustomShapesBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
